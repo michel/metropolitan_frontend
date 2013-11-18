@@ -124,25 +124,34 @@ article.featured .intro_container .intro-text {
   padding-top: 10px
 }
 
-article.featured img {
+article.featured .intro_container img {
   min-width: 100%;
 }
+article .author {
+  margin-top: 20px;
+  margin-left: 10px;
+}  
+article .article p {
+  line-height: 50px;
+}
+article .author img {
+  width: 50px;
+  border-radius:25px;
+  float: left;
+}
+
 footer {
   clear: both;
 }
-
-
-
 
 .article_content {
   margin: 2%;
 }
 
 .article_content h1{
-
    font-weight: 700;
-   font-size: 97px;
-   line-height: 90px;
+   font-size: 250%;
+   line-height: 100%;
    text-align: center;
    text-transform: uppercase;
 }
@@ -150,7 +159,7 @@ footer {
 .article_content .intro{
    font-weight: 300;
    margin-bottom: 27px;
-   font-size: 29px;
+   font-size: 150%;
    border-top: 1px;
    border-bottom: 1px;
    padding: 30px;
@@ -158,6 +167,7 @@ footer {
    border-style: solid;
    margin-top: 27px;
    line-height: 39px;
+   /*padding-top: 0px;*/
 }
 
 .article_content p{
