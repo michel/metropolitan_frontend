@@ -45,7 +45,7 @@ header.big h1 {
   width: 359px;
   height: 46px;
   display: block;
-  background: url('/images/logo.png') top left no-repeat;
+  background: url('/metropolitan/images/logo.png') top left no-repeat;
   overflow: hidden;
   text-indent: 9999px;                 /* sends the text off-screen */
 }
@@ -60,7 +60,7 @@ header.small h1 {
   margin-top: 5px;
   font-size: 150%;
   display: block;
-  background: url('/images/logo_small.png') top left no-repeat;
+  background: url('/metropolitan/images/logo_small.png') top left no-repeat;
   overflow: hidden;
   text-indent: 9999px;                 /* sends the text off-screen */
   width: 218px;
@@ -124,7 +124,7 @@ article.featured .intro_container .intro-text {
   padding-top: 10px
 }
 
-article.featured .intro_container img {
+article.featured img.intro {
   min-width: 100%;
 }
 article .author {
@@ -177,14 +177,14 @@ footer {
    margin-bottom: 27px;
 }
 
-.article_content h2{
+.article_content h3, .article_content h2{
    font-weight: 600;
    font-size: 29px;
    line-height: 27px;
    margin-bottom: 27px;
 }
 
-.article_content p.pullquote{
+.article_content blockquote{
    padding-left: 10px;
    border-style: solid;
    border-left-width: 3px;
@@ -192,5 +192,14 @@ footer {
    font-weight: 700;
 }
 
+.article_content ol {
+  list-style: decimal;
+}
+.article_content ol, .article_content ul {
+  line-height: 32px;
+  margin: 25px;
+}
 
+.article_content li {
+}
 
