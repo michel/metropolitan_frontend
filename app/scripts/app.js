@@ -8,11 +8,11 @@ angular.module('mandysblogApp', [
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: '/metropolitan/views/main.html',
         controller: 'MainCtrl'
       })
       .when('/overview', {
-        templateUrl: 'views/overview.html',
+        templateUrl: '/metropolitan/views/overview.html',
         controller: 'OverviewCtrl'
       })
       .otherwise({

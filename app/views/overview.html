@@ -4,3 +4,20 @@
     <h2> Rick Owens , Raf Simmons is what I wear</h2>
   </div>
 </div?
+<div id='articles'>
+  <article class='featured' ng-repeat='article in articles'>
+    <div class='article_container'>
+      <div class='intro_container'>
+        <h2>{{article.title}}</h1>
+        <div class='intro-text'>
+          {{article.intro_text}}
+        </div>
+      </div>
+      <img src='{{article.main_image_url}}' alt='{{article.title}}' class='intro'/>
+      <!--<div class='author'> -->
+      <!--<img src='/images/mandy.jpg' alt='src' />-->
+      <!--<p> By <strong> Mandy Muijs </strong></p>-->
+      <!--</div>-->
+      <div class='article_content' ng-bind-html='article.parsed_html.html()'> </div>
+    </div>
+  </article>
